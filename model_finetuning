@@ -70,7 +70,7 @@ tokenizer.push_to_hub("gpt2_wikitext_3ep_infinitypreference_1ep")
 from transformers import pipeline
 from huggingface_hub import login
 
-login('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')
+login('xxxxxxxxxxxxxxxxxxxxxxxxxxx')
 
 # Load the fine-tuned model from Hugging Face
 generator = pipeline("text-generation", model="recbygus/gpt2_wikitext_3ep_infinitypreference_1ep")
